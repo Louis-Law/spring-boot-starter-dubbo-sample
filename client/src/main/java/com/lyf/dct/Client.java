@@ -1,7 +1,7 @@
 package com.lyf.dct;
 
 import com.lyf.dc.HelloServiceReq;
-import io.dubbo.springboot.DubboScan;
+import com.oqiji.boot.dubbo.DubboScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

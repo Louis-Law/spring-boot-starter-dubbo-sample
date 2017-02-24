@@ -23,13 +23,13 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>io.dubbo.springboot</groupId>
-				<artifactId>starter-server</artifactId>
+				<groupId>com.oqiji.springboot</groupId>
+				<artifactId>starter-dubbo-server</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 			<dependency>
-				<groupId>io.dubbo.springboot</groupId>
-				<artifactId>starter-common</artifactId>
+				<groupId>com.oqiji.springboot</groupId>
+				<artifactId>starter-dubbo-common</artifactId>
 				<version>1.0.0</version>
 			</dependency>
 		</dependencies>
