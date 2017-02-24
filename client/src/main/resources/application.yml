@@ -1,0 +1,8 @@
+spring:
+  dubbo:
+    application:
+      name: consumer
+    registry:
+      address: zookeeper://127.0.0.1:20181
+#    scan: com.lyf.dc
+debug: true

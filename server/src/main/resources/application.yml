@@ -1,0 +1,15 @@
+spring:
+  dubbo:
+    application:
+      name: provider
+    registry:
+      address: zookeeper://127.0.0.1:20181
+    protocol:
+      name: dubbo
+      prot: 20880
+
+  datasource:
+      url: jdbc:mysql://192.168.2.200:3306/qiji?useUnicode=true&characterEncoding=UTF8
+      username: qiji
+      password: qiji,123
+debug: true
